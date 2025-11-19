@@ -3,7 +3,42 @@
 using namespace std;
 
 
+//Problem 18
+/*int add(int a, int b) {
+    return a + b;
+}
+int muliply(int a, int b) {
+    return a * b;
+}
+int main() {
+    int (*ops[2])(int, int);
+    ops[0] = &add, ops[1] = &muliply;
+    int a, b; cout << "Input 2 integers: "; cin >> a >> b;
+    cout << "Choose operation 0-add,1-multiply: ";
+    int n; cin >> n;
+    int result = ops[n](a, b);
+    cout << result << endl;
+
+    return 0;
+}*/
+
 //Problem 17
+/*int add(int a, int b) {
+    return a + b;
+}
+int muliply(int a, int b) {
+    return a * b;
+}
+void calculate(int (*op)(int a, int b), int x, int y) {
+    int n = op(x, y);
+    cout << n << endl;
+}
+int main() {
+    calculate(add, 2, 3);
+    calculate(muliply, 2, 3);
+
+    return 0;
+}*/
 
 //Problem 16
 /*int add(int a, int b) {
