@@ -94,7 +94,7 @@ int main() {
 }*/
 
 //Problem 13
-int main() {
+/*int main() {
     srand(time(0));
     string suits[4] = {"Hearts", "Diamonds", "Clubs",  "Spades"};
     string faces[13] = {"Ace", "2", "3", "4", "5", "6", "7", "8",
@@ -111,7 +111,7 @@ int main() {
     }
 
     return 0;
-}
+}*/
 
 //Problem 12
 /*int main() {
