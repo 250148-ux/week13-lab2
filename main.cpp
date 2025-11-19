@@ -94,24 +94,24 @@ int main() {
 }*/
 
 //Problem 13
-/*int main() {
+int main() {
     srand(time(0));
     string suits[4] = {"Hearts", "Diamonds", "Clubs",  "Spades"};
-    string ranks[13] = {"Ace", "2", "3", "4", "5", "6", "7", "8",
+    string faces[13] = {"Ace", "2", "3", "4", "5", "6", "7", "8",
         "9", "10", "Jack", "Queen", "King"
     };
     string decks[4][13];
     for (int i = 0; i < 4; i++) {
         for (int j = 0; j < 13; j++) {
-            decks[i][j] = suits[i] + " of " + ranks[j];
+            decks[i][j] = suits[i] + " of " + faces[j];
         }
     }for (int i=0; i<6; i++) {
-        int suits = rand()%4, ranks = rand()%13;
-        cout << decks[suits][ranks] << endl;
+        int suits = rand()%4, faces = rand()%13;
+        cout << decks[suits][faces] << endl;
     }
 
     return 0;
-}*/
+}
 
 //Problem 12
 /*int main() {
